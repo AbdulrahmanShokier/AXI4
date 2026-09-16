@@ -36,7 +36,7 @@ reg add_received_flag;          // a flag to indicate is the address is received
 parameter [1:0]
 idle             = 2'b00,
 write_data_state = 2'b01,
-write_add_state  = 2'b10;
+//write_add_state  = 2'b10;
 
 reg [1:0] current_state, next_state;
 
